@@ -35,7 +35,7 @@ export default function Nav() {
                 <a href="#" className="brand-tablet w-nav-brand" />
                 <div className="close-menu-button w-nav-button">
                   <img
-                    src="https://assets.website-files.com/636e23ecf118df495e7a2aca/636e23edf118df5e017a2b18_x_icon.png"
+                    src="https://i.ibb.co/fnhTqM2/cross.png`"
                     loading="lazy"
                     alt=""
                     className="nav-close-icon"
@@ -104,7 +104,7 @@ export default function Nav() {
                             </nav> */}
                 </div>
                 <div className="nav-dropdown-toggle w-dropdown-toggle">
-                  <div className="nav-dropdown-icon w-icon-dropdown-toggle" />
+                  <div className="" />
                   <p className="nav-item-title">Ticket</p>
                 </div>
                 {/* <div data-w-id="fe060b5d-81e8-a354-cdf4-64669c4ad870" class="nav-link-wrapper"><a href="/blog" class="nav-link">Team</a></div> */}

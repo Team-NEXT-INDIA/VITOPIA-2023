@@ -60,7 +60,7 @@ export default function Hero() {
         </div> */}
         <div className="top-banner-section wf-section">
           <div
-            data-poster-url="https://assets.website-files.com/636e23ecf118df495e7a2aca/6384f5628f6ff67f3b33a32d_181818-poster-00001.jpg"
+            data-poster-url="https://i.ibb.co/N3mvRPn/Fireworks-img.png"
             data-video-urls={heromp}
             data-autoplay="true"
             data-loop="true"
@@ -73,7 +73,7 @@ export default function Hero() {
               loop
               style={{
                 backgroundImage:
-                  'url("https://assets.website-files.com/636e23ecf118df495e7a2aca/6384f5628f6ff67f3b33a32d_181818-poster-00001.jpg")',
+                  'url("https://i.ibb.co/N3mvRPn/Fireworks-img.png")',
               }}
               muted
               playsInline
