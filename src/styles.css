@@ -155,6 +155,12 @@
 .Vitopia21 {
   width: 450px;
 }
+@media only screen and (max-width: 600px) {
+  .Vitopia21 {
+    width: 180px;
+  }
+}
+
 .w-form-formradioinput--inputType-custom {
   border-top-width: 1px;
   border-bottom-width: 1px;
