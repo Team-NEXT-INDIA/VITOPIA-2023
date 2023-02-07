@@ -3,8 +3,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {
-}
+h6 {}
+
 a,
 a:hover,
 a:focus,
@@ -29,23 +29,30 @@ a:focus {
   -webkit-transition-duration: 0.2s;
   -o-transition-duration: 0.2s;
 }
+
 .white-logo {
+  padding-left: 40px;
+  padding-right: 40px;
   width: 300px;
   margin-top: 20px;
 }
+
 ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
+
 img {
   max-width: 100%;
   height: auto;
 }
+
 section {
   padding: 60px 0;
   /* min-height: 100vh;*/
 }
+
 .footer {
   background: #141414;
   padding-top: 80px;
@@ -57,6 +64,7 @@ section {
     margin-bottom: 30px;
   }
 }
+
 .single_footer h4 {
   color: #fff;
   margin-left: 400px;
@@ -66,6 +74,7 @@ section {
   text-transform: uppercase;
   font-size: 20px;
 }
+
 .contact-page {
   color: #fff;
 
@@ -73,6 +82,7 @@ section {
   text-transform: uppercase;
   font-size: 20px;
 }
+
 .single_footer h4::after {
   content: "";
   display: block;
@@ -81,16 +91,19 @@ section {
   background: #fff;
   margin-top: 20px;
 }
+
 .single_footer p {
   color: #fff;
 }
+
 .single_footer ul {
   margin: 0;
   padding: 0;
   list-style: none;
 }
-.single_footer ul li {
-}
+
+.single_footer ul li {}
+
 .single_footer ul li a {
   color: #fff;
   -webkit-transition: all 0.3s ease 0s;
@@ -99,23 +112,26 @@ section {
   font-size: 15px;
   text-transform: capitalize;
 }
+
 .single_footer ul li a:hover {
   color: #ffffff;
 }
 
-.single_footer_address {
-}
-.single_footer_address ul {
-}
+.single_footer_address {}
+
+.single_footer_address ul {}
+
 .single_footer_address ul li {
   color: #fff;
 }
+
 .single_footer_address ul li span {
   font-weight: 400;
   color: #fff;
   line-height: 28px;
 }
-.contact_social > socials-profile {
+
+.contact_social>socials-profile {
   list-style: outside none none;
   margin: 0;
 
@@ -129,6 +145,7 @@ section {
   margin-top: 15px;
   width: 100%;
 }
+
 .subscribe__input {
   background-color: #fff;
   border: medium none;
@@ -145,6 +162,7 @@ section {
   text-transform: capitalize;
   width: 100%;
 }
+
 @media only screen and (max-width: 768px) {
   .subscribe__input {
     padding: 0 50px 0 20px;
@@ -164,9 +182,11 @@ section {
   top: 0;
   width: 60px;
 }
+
 .subscribe__btn i {
   transition: all 0.3s ease 0s;
 }
+
 @media only screen and (max-width: 768px) {
   .subscribe__btn {
     right: 0px;
@@ -176,6 +196,7 @@ section {
 .subscribe__btn:hover i {
   color: #ff3666;
 }
+
 button {
   padding: 0;
   border: none;
@@ -183,12 +204,14 @@ button {
   -webkit-border-radius: 0;
   border-radius: 0;
 }
+
 /*END NEWSLETTER CSS*/
 
 /*START SOCIAL PROFILE CSS*/
 .social_profile {
   margin-top: 40px;
 }
+
 .social_profile ul {
   list-style: outside none none;
   margin: 0;
@@ -196,9 +219,11 @@ button {
   flex: none !important;
   flex-direction: row-reverse;
 }
+
 .social_profile ul li {
   float: left;
 }
+
 .social_profile ul li a {
   text-align: center;
   border: 0px;
@@ -214,12 +239,14 @@ button {
   display: block;
   border: 1px solid rgba(255, 255, 255, 0.2);
 }
+
 @media only screen and (max-width: 768px) {
   .social_profile ul li a {
     margin-right: 10px;
     margin-bottom: 10px;
   }
 }
+
 @media only screen and (max-width: 480px) {
   .social_profile ul li a {
     width: 40px;
@@ -227,12 +254,14 @@ button {
     line-height: 40px;
   }
 }
+
 .social_profile ul li a:hover {
   background: #a5a5a5;
   border: 1px solid #a5a5a5;
   color: #fff;
   border: 0px;
 }
+
 /*END SOCIAL PROFILE CSS*/
 .copyright {
   margin-top: 70px;
@@ -242,10 +271,12 @@ button {
   border-top: 1px solid rgba(255, 255, 255, 0.4);
   text-align: center;
 }
+
 .copyright a {
   color: #01c7e9;
   transition: all 0.2s ease 0s;
 }
+
 .copyright a:hover {
   color: #a5a5a5;
 }
