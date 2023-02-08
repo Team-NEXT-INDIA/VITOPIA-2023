@@ -11,6 +11,13 @@ html {
 body {
   margin: 0;
 }
+
+@media only screen and (max-width: 600px) {
+  #register-btn {
+    display: none;
+  }
+}
+
 article,
 aside,
 details,
@@ -2715,11 +2722,11 @@ figure {
 
 .nav-dropdown-link:hover {
   margin-left: 0px;
-  color: #1d35a1;
+  color: #353842;
 }
 
 .nav-dropdown-link.w--current {
-  color: #1d35a1;
+  color: #353842;
 }
 
 .nav-item-title {

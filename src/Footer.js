@@ -72,7 +72,9 @@ export default function Footer() {
                       <i className="fas fa-paper-plane" />
                     </button> */}
                     <div>
-                      <h2 className="contact-page">Contact Us:</h2>
+                      <h2 id="contact-text" className="contact-page">
+                        Contact:
+                      </h2>
                     </div>
                   </form>
                 </div>
@@ -103,13 +105,19 @@ export default function Footer() {
                 </ul>
               </div>
             </div>
+            <div>
+              <img
+                className="white-logo1"
+                src="https://i.ibb.co/M7JKbgz/vitopia-white.png"
+              ></img>
+            </div>
             {/*- END COL */}
           </div>
           {/*- END ROW */}
           <div className="row">
             <div className="col-lg-12 col-sm-12 col-xs-12">
               <p className="copyright">
-                Designed and Developed by{" "}
+                Developed by{" "}
                 <a href="#" target="_blank">
                   Arize
                 </a>
@@ -119,6 +127,7 @@ export default function Footer() {
                 </a>
               </p>
             </div>
+
             {/*- END COL */}
           </div>
           {/*- END ROW */}

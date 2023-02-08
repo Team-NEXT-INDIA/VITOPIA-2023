@@ -275,11 +275,11 @@ export default function Hero() {
                 data-w-id="db319d20-7649-22f9-2eac-83d178790800"
                 style={{ opacity: 0 }}
               />
-              <h3>Co-ordinators</h3>
+              <h3>VIT-TEAM</h3>
               <div>
                 <div>
                   <div className="grid-item">
-                    <div class="mention-card">
+                    <div class="mention-card  ">
                       <img
                         src="https://vitap.ac.in/wp-content/uploads/2020/12/Viswanthan-Sir.jpg"
                         alt="mention-card"
@@ -304,6 +304,24 @@ export default function Hero() {
                           alt="mention-card"
                         />
                         <h6>Dr. Sekar Viswanathan</h6>
+                      </div>
+                    </div>
+                    <div className="grid-item">
+                      <div class="mention-card">
+                        <img
+                          src="https://vitap.ac.in/wp-content/uploads/2020/12/GV-Selvam-Sir.jpg"
+                          alt="mention-card"
+                        />
+                        <h6>Mr.G. V. Selvam</h6>
+                      </div>
+                    </div>
+                    <div className="grid-item">
+                      <div class="mention-card">
+                        <img
+                          src="https://vitap.ac.in/wp-content/uploads/2020/12/Sandhya-Madam.jpg"
+                          alt="mention-card"
+                        />
+                        <h6>Dr. Sandhya Pentareddy</h6>
                       </div>
                     </div>
 

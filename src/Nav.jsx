@@ -147,6 +147,7 @@ export default function Nav() {
             </nav>
             <div className="navbar-button-wrapper">
               <a
+                id="register-btn"
                 href="https://vtop2.vitap.ac.in/vtop/initialProcess"
                 target="_blank"
                 className="primary-button2 arrow-link-icon w-button"
