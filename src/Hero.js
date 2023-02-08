@@ -237,14 +237,10 @@ export default function Hero() {
                 {/* <div data-w-id="7b8cdea4-e2ee-261f-5d63-07e80b4d0850" style="opacity:0" class="home-video-player home-3"><img src="https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1279px) 49vw, 570px"
                   srcset="https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208-p-500.webp 500w, https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208-p-800.webp 800w, https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208-p-1080.webp 1080w, https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208.webp 1170w"
                   alt="" class="video-player-image home-3" /> */}
-                <a
-                  href="#"
-                  className="video-lightbox absolute w-inline-block w-lightbox"
-                ></a>
               </div>
             </div>
-            <h3 />
-            <h3>About Vitopia</h3>
+
+            <h3 className="about-head">About Vitopia</h3>
             <br></br>
 
             <p className="about-des">
@@ -275,7 +271,7 @@ export default function Hero() {
                 data-w-id="db319d20-7649-22f9-2eac-83d178790800"
                 style={{ opacity: 0 }}
               />
-              <h3>VIT-TEAM</h3>
+              <h3 className="vit-team">VIT-TEAM</h3>
               <div>
                 <div>
                   <div className="grid-item">

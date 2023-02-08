@@ -15,8 +15,32 @@
 
 .about-des {
   width: 50%;
-  margin: auto 100px auto 100px;
+  margin: 10px 100px auto 100px;
   float: left;
+}
+
+@media screen and (max-width: 600px) {
+  .about-des {
+    margin: auto auto 50px auto;
+  }
+}
+
+.about-head {
+  margin: auto auto auto 290px;
+}
+@media screen and (max-width: 600px) {
+  .about-head {
+    margin: auto 50px auto auto;
+  }
+}
+
+.vit-team {
+  margin: auto auto auto 350px;
+}
+@media screen and (max-width: 600px) {
+  .vit-team {
+    margin: auto 30px auto auto;
+  }
 }
 
 .mention-card-chance {
