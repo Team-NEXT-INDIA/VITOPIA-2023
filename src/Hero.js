@@ -246,7 +246,8 @@ export default function Hero() {
             <h3 />
             <h3>About Vitopia</h3>
             <br></br>
-            <p>
+
+            <p className="about-des">
               VITOPIA is the annual international cultural and sports festival
               conducted by VIT - AP University as a celebration of its endless
               enthusiasm towards various sport and art forms. VITOPIA 2023 is

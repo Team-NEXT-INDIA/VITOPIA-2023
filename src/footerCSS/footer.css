@@ -3,7 +3,8 @@ h2,
 h3,
 h4,
 h5,
-h6 {}
+h6 {
+}
 
 a,
 a:hover,
@@ -77,7 +78,7 @@ section {
 
 .contact-page {
   color: #fff;
-
+  padding-left: 155px;
   font-weight: 700;
   text-transform: uppercase;
   font-size: 20px;
@@ -102,7 +103,8 @@ section {
   list-style: none;
 }
 
-.single_footer ul li {}
+.single_footer ul li {
+}
 
 .single_footer ul li a {
   color: #fff;
@@ -117,9 +119,11 @@ section {
   color: #ffffff;
 }
 
-.single_footer_address {}
+.single_footer_address {
+}
 
-.single_footer_address ul {}
+.single_footer_address ul {
+}
 
 .single_footer_address ul li {
   color: #fff;
@@ -131,7 +135,7 @@ section {
   line-height: 28px;
 }
 
-.contact_social>socials-profile {
+.contact_social > socials-profile {
   list-style: outside none none;
   margin: 0;
 
