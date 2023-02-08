@@ -1,6 +1,7 @@
 import React from "react";
 import "./styles.css";
 import "./stylev2.css";
+import "./scroll.js";
 import ScrollToTop from "react-scroll-to-top";
 
 export default function Nav() {
@@ -10,7 +11,7 @@ export default function Nav() {
       <div
         id="NAV-HEAD"
         data-animation="over-left"
-        className="navbar w-nav"
+        className="navbar navbar-fixed-top scrolled w-nav"
         data-easing2="ease"
         data-easing="ease"
         data-collapse="medium"

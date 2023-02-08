@@ -2584,6 +2584,11 @@ figure {
   background-color: transparent;
 }
 
+.navbar-fixed-top.scrolled {
+  background-color: #000000 !important;
+  transition: background-color 200ms linear;
+}
+
 .nav-container {
   display: -webkit-box;
   display: -webkit-flex;
