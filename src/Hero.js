@@ -269,11 +269,11 @@ export default function Hero() {
                 data-w-id="db319d20-7649-22f9-2eac-83d178790800"
                 style={{ opacity: 0 }}
               />
-              <h3 className="vit-team">VIT-TEAM</h3>
+              <h3 className="vit-team">PATRONS</h3>
               <div>
                 <div>
                   <div className="grid-item">
-                    <div class="mention-card  ">
+                    <div class="mention-card ">
                       <img
                         src="https://vitap.ac.in/wp-content/uploads/2020/12/Viswanthan-Sir.jpg"
                         alt="mention-card"
