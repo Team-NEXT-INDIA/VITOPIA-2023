@@ -1945,6 +1945,13 @@ textarea.w-select {
   width: 120px;
 }
 
+@media only screen and (max-width: 600px) {
+  .vtop-png {
+    height: 25px;
+    width: 80px;
+  }
+}
+
 .w-layout-grid {
   display: -ms-grid;
   display: grid;
@@ -2585,7 +2592,7 @@ figure {
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: #000000 !important;
+  background-color: #fff;
   transition: background-color 200ms linear;
 }
 
@@ -6598,6 +6605,7 @@ figure {
   }
 
   .extra-bold-text.hover-animation {
+    color: #fff;
     font-size: 140px;
   }
 

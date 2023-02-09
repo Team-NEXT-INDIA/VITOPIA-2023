@@ -196,7 +196,7 @@ export default function Hero() {
                 <a href="/works-categories/visual" className="w-inline-block">
                   <div
                     id="SECTION-EXPLORE"
-                    className="events-ani extra-bold-text hover-animation"
+                    className=" extra-bold-text hover-animation"
                   >
                     Events
                   </div>
@@ -211,7 +211,7 @@ export default function Hero() {
                   href="/works-categories/animation"
                   className="w-inline-block"
                 >
-                  <div className="proshow-ani extra-bold-text hover-animation">
+                  <div className="extra-bold-text hover-animation">
                     Pro-Show
                   </div>
                 </a>
@@ -222,9 +222,7 @@ export default function Hero() {
                   className="w-dyn-item"
                 ></div>
                 <a href="/works-categories/colors" className="w-inline-block">
-                  <div className="venues-ani extra-bold-text hover-animation">
-                    Venues
-                  </div>
+                  <div className="extra-bold-text hover-animation">Venues</div>
                 </a>
               </div>
             </div>

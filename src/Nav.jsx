@@ -5,6 +5,15 @@ import "./scroll.js";
 import ScrollToTop from "react-scroll-to-top";
 
 export default function Nav() {
+  window.addEventListener("scroll", function () {
+    const header = document.getElementById("NAV-HEAD");
+    if (window.scrollY > 10) {
+      header.style.backgroundColor = "#101010";
+    } else {
+      header.style.backgroundColor = "initial";
+    }
+  });
+
   return (
     <div>
       <ScrollToTop smooth />
