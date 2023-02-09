@@ -2592,7 +2592,6 @@ figure {
 }
 
 .navbar-fixed-top.scrolled {
-  background-color: #fff;
   transition: background-color 200ms linear;
 }
 
