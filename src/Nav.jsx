@@ -3,6 +3,8 @@ import "./styles.css";
 import "./stylev2.css";
 import "./scroll.js";
 import ScrollToTop from "react-scroll-to-top";
+import { Outlet, Link } from "react-router-dom";
+import { NavLink } from 'react-router-dom';
 
 export default function Nav() {
   window.addEventListener("scroll", function () {
@@ -60,9 +62,9 @@ export default function Nav() {
                 >
                   <div className="nav-dropdown-toggle w-dropdown-toggle">
                     <div className="nav-dropdown-icon w-icon-dropdown-toggle" />
-                    <a href="#">
+                    <Link to="/">
                       <p className="nav-item-title">Home</p>
-                    </a>
+                      </Link>
                     <div className="home-tab-underline" />
                   </div>
                   {/* <nav class="nav-dropdown-list w-dropdown-list">
@@ -101,9 +103,14 @@ export default function Nav() {
                 >
                   <div className="nav-dropdown-toggle w-dropdown-toggle">
                     <div className="nav-dropdown-icon w-icon-dropdown-toggle" />
-                    <a href="#SECTION-SCHEDULE">
+                  
+                    <Link to="/schedule">
                       <p className="nav-item-title">Schedule</p>
-                    </a>
+                      </Link>
+
+                  
+                      
+                  
                   </div>
                   {/* <nav class="nav-dropdown-list w-dropdown-list">
                                 <div class="nav-dropdown-column">
