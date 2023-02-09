@@ -9,6 +9,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "./Screens/Home";
 import Schedule from "./Screens/Schedule";
 import Error from "./Screens/ErrorPages/404";
+import About from "./Screens/About";
 
 function App() {
   return (
@@ -17,7 +18,9 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />}/>
         <Route path="schedule" element={<Schedule />} />
+        <Route path="about" element={<About />} />
         <Route path="" element={<Error />} />
+        
       </Routes>
     </BrowserRouter>
     
