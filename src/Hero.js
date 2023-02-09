@@ -238,7 +238,7 @@ export default function Hero() {
               </div>
             </div>
 
-            <h3 className="about-head">About Vitopia</h3>
+            {/* <h3 className="about-head">About Vitopia</h3>
             <br></br>
 
             <p className="about-des">
@@ -255,7 +255,7 @@ export default function Hero() {
               film Director Mr. Narendra Nath, Stand up comedian Rajasekhar
               Mamidanna , as well as renowned music bands such as Indian Ocean
               and Chemmen , to the university.
-            </p>
+            </p> */}
           </div>
         </div>
         {/* <div id="SECTION-SCHEDULE" class="Schedule1">

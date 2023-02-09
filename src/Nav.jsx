@@ -4,7 +4,7 @@ import "./stylev2.css";
 import "./scroll.js";
 import ScrollToTop from "react-scroll-to-top";
 import { Outlet, Link } from "react-router-dom";
-import { NavLink } from 'react-router-dom';
+import { NavLink } from "react-router-dom";
 
 export default function Nav() {
   window.addEventListener("scroll", function () {
@@ -64,7 +64,7 @@ export default function Nav() {
                     <div className="nav-dropdown-icon w-icon-dropdown-toggle" />
                     <Link to="/">
                       <p className="nav-item-title">Home</p>
-                      </Link>
+                    </Link>
                     <div className="home-tab-underline" />
                   </div>
                   {/* <nav class="nav-dropdown-list w-dropdown-list">
@@ -86,7 +86,7 @@ export default function Nav() {
                     <div className="nav-dropdown-icon w-icon-dropdown-toggle" />
                     <Link to="/about">
                       <p className="nav-item-title">About</p>
-                      </Link>
+                    </Link>
                   </div>
                   {/* <nav class="nav-dropdown-list w-dropdown-list">
                                 <div class="nav-dropdown-link-wrapper"><a href="/about-us" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>About 1</a><a href="/about-us-2" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>About 2</a>
@@ -103,14 +103,10 @@ export default function Nav() {
                 >
                   <div className="nav-dropdown-toggle w-dropdown-toggle">
                     <div className="nav-dropdown-icon w-icon-dropdown-toggle" />
-                  
+
                     <Link to="/schedule">
                       <p className="nav-item-title">Schedule</p>
-                      </Link>
-
-                  
-                      
-                  
+                    </Link>
                   </div>
                   {/* <nav class="nav-dropdown-list w-dropdown-list">
                                 <div class="nav-dropdown-column">
@@ -145,7 +141,7 @@ export default function Nav() {
                             className="nav-dropdown-link w-dropdown-link"
                           >
                             <span className="nav-dropdown-link-line"> </span>
-                            Co-ordinators
+                            Patrons
                           </a>
                         </a>
 
