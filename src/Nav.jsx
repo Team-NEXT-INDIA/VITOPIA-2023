@@ -65,7 +65,7 @@ export default function Nav() {
                     <Link to="/">
                       <p className="nav-item-title">Home</p>
                     </Link>
-                    <div className="home-tab-underline" />
+                    <div />
                   </div>
                   {/* <nav class="nav-dropdown-list w-dropdown-list">
                                 <div class="nav-dropdown-column">
