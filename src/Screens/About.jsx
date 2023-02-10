@@ -9,10 +9,13 @@ export default function About() {
   <img
     className="full-width"
     alt="Vit-ap drone shot"
-    src="https://i.im.ge/2023/02/09/aNAhAp.david-svihovec-5X2ViX-r0ZA-unsplash.jpg"
-  />
+    src="https://i.im.ge/2023/02/10/atbs0X.1-DJI-0226-1.jpg"
+    />
 </div>
-      
+<div>
+  <h1 class="Title">About  VIT-AP</h1>
+</div>
+
  </>
   )
 }

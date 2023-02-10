@@ -269,7 +269,7 @@ export default function Hero() {
                 data-w-id="db319d20-7649-22f9-2eac-83d178790800"
                 style={{ opacity: 0 }}
               />
-              <h3 className="vit-team">PATRONS</h3>
+              <h3 className="vit-team">Patrons</h3>
               <div>
                 <div>
                   <div className="grid-item">
@@ -282,7 +282,14 @@ export default function Hero() {
                     </div>
                   </div>
                   <div className="grid-container">
-                    <div className="grid-item">
+                    
+              </div>
+              <div class='Co-patrons-body'>
+              <div class="Co-Patrons-wrapper">
+              <h3 class="vit-team">Co-Patrons</h3>
+              </div>
+              <div class="grid-container">
+              <div className="grid-item">
                       <div class="mention-card">
                         <img
                           src="https://vitap.ac.in/wp-content/uploads/2020/12/Sankar-Sir.jpg"
@@ -319,7 +326,7 @@ export default function Hero() {
                       </div>
                     </div>
 
-                    <div className="grid-item">
+              <div className="grid-item">
                       <div class="mention-card">
                         <img
                           src="https://vitap.ac.in/wp-content/uploads/2020/11/kottareddy.jpg"
@@ -337,7 +344,15 @@ export default function Hero() {
                         <h6>Dr. Jagadish Chandramudiganti</h6>
                       </div>
                     </div>
-                    <div className="grid-item">
+
+              </div>
+              </div>
+              < div class="Co-patrons-body">
+              <div class="Co-Patrons-wrapper">
+              <h3 class="vit-team">Event Coordinators</h3>
+              </div>
+              <div class="grid-container">
+              <div className="grid-item">
                       <div class="mention-card">
                         <img
                           src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-SUDHAKAR-ILANGO-1.jpg"
@@ -400,7 +415,14 @@ export default function Hero() {
                         <h6>Dr. Suresh Jagannadham</h6>
                       </div>
                     </div>
-                  </div>
+                    </div>
+                  
+                    
+
+              </div>
+              </div>
+
+              
 
                   {/* <div class="column">
    <div class="card"> 
@@ -466,7 +488,6 @@ export default function Hero() {
               </div>
             </div>
           </div>
-        </div>
       </>
     </div>
   );
