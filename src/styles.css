@@ -35,6 +35,8 @@
 
 .vit-team {
   text-align: center;
+  padding: 30px;
+
 }
 @media screen and (max-width: 600px) {
   .vit-team {

@@ -4,6 +4,9 @@ import "./stylev2.css";
 import "./custom.css";
 import herowebp from "./assets/videos/Fireworks.webm";
 import heromp from "./assets/videos/Fireworks.mp4";
+import appstore from './assets/images/appstore.png'
+import playstore from './assets/images/playstore.png'
+import appscreenshot from './assets/images/appscreenshot.png'
 export default function Hero() {
   return (
     <div>
@@ -295,7 +298,7 @@ export default function Hero() {
                           src="https://vitap.ac.in/wp-content/uploads/2020/12/Sankar-Sir.jpg"
                           alt="mention-card"
                         />
-                        <h6>Dr.Sankar-Viswanathan</h6>
+                        <h6>Dr.Sankar-Viswanathan</h6>                  
                       </div>
                     </div>
                     <div className="grid-item">
@@ -487,7 +490,60 @@ export default function Hero() {
                 </div>
               </div>
             </div>
+            
+
           </div>
+          <div className="promo-container-wrapper">
+            <div></div>
+          <div class="promo-container">
+            
+           <div>
+           <div class="promo-container-text">
+              <h5 className="promo-subtitle">Grab Your Tickets</h5>
+              <h6 className="promo-title">Download the App</h6>
+            </div>
+            <div className="promo-links">
+            <div id="download" className="store-logos">
+  <div className="logo-as text-center text-md-left">
+    <a
+      href="https://apps.apple.com/in/app/vitap-university-student-app/id6443920958"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src={appstore}
+        alt="App Store Link"
+        className="app-store-badge"
+      />
+    </a>
+  </div>
+  <div className="text-center text-md-left">
+    <a
+      href="https://play.google.com/store/apps/details?id=com.next.vitap"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      <img
+        src={playstore}
+        alt="playstore Store Link"
+        className="app-store-badge"
+      />
+    </a>
+  </div>
+</div>
+            </div>
+           </div>
+            <div className="app-screenshot">
+            <img
+              src={appscreenshot}
+              alt="App Store Link"
+              className="app-screenshot"
+              />
+            </div>
+          </div>
+            
+          </div>
+          
       </>
     </div>
   );
