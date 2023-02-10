@@ -25,7 +25,7 @@
 }
 
 .about-head {
-  margin: auto auto auto 290px;
+  text-align: center;
 }
 @media screen and (max-width: 600px) {
   .about-head {

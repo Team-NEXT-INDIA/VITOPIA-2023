@@ -241,7 +241,7 @@ export default function Hero() {
               </div>
             </div>
 
-            {/* <h3 className="about-head">About Vitopia</h3>
+            <h3 className="about-head">About Vitopia</h3>
             <br></br>
 
             <p className="about-des">
@@ -258,7 +258,7 @@ export default function Hero() {
               film Director Mr. Narendra Nath, Stand up comedian Rajasekhar
               Mamidanna , as well as renowned music bands such as Indian Ocean
               and Chemmen , to the university.
-            </p> */}
+            </p>
           </div>
         </div>
         {/* <div id="SECTION-SCHEDULE" class="Schedule1">
@@ -317,15 +317,6 @@ export default function Hero() {
                           alt="mention-card"
                         />
                         <h6>Mr.G. V. Selvam</h6>
-                      </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2020/12/Sandhya-Madam.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. Sandhya Pentareddy</h6>
                       </div>
                     </div>
 
