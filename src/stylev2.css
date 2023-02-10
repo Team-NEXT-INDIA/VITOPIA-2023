@@ -12,6 +12,12 @@ body {
   margin: 0;
 }
 
+.about-page {
+  padding: 10px 30px 10px 30px;
+}
+.about-box {
+}
+
 @media only screen and (max-width: 600px) {
   #register-btn {
     display: none;

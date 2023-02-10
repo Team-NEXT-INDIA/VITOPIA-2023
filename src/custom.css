@@ -7,10 +7,10 @@
 
 .grid-item {
   display: flex;
-    justify-content: space-evenly;
-    /* flex-direction: column; */
-    align-content: space-around;
-    flex-wrap: wrap;
+  justify-content: space-evenly;
+  /* flex-direction: column; */
+  align-content: space-around;
+  flex-wrap: wrap;
   padding: 20px;
   font-size: 30px;
   text-align: center;
