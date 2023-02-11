@@ -12,6 +12,12 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
+.about-img {
+  display: flex;
+  align-items: right;
+  width: 200px;
+  height: 200px;
+}
 
 .about-des {
   margin: 10px 100px auto 100px;
@@ -25,7 +31,8 @@
 }
 
 .about-head {
-  text-align: center;
+  text-align: left;
+  float: left;
 }
 @media screen and (max-width: 600px) {
   .about-head {
@@ -36,7 +43,6 @@
 .vit-team {
   text-align: center;
   padding: 30px;
-
 }
 @media screen and (max-width: 600px) {
   .vit-team {

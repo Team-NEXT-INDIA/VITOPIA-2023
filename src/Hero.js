@@ -4,9 +4,9 @@ import "./stylev2.css";
 import "./custom.css";
 import herowebp from "./assets/videos/Fireworks.webm";
 import heromp from "./assets/videos/Fireworks.mp4";
-import appstore from './assets/images/appstore.png'
-import playstore from './assets/images/playstore.png'
-import appscreenshot from './assets/images/appscreenshot.png'
+import appstore from "./assets/images/appstore.png";
+import playstore from "./assets/images/playstore.png";
+import appscreenshot from "./assets/images/appscreenshot.png";
 export default function Hero() {
   return (
     <div>
@@ -284,141 +284,133 @@ export default function Hero() {
                       <h6>Dr. G. Viswanathan</h6>
                     </div>
                   </div>
-                  <div className="grid-container">
-                    
-              </div>
-              <div class='Co-patrons-body'>
-              <div class="Co-Patrons-wrapper">
-              <h3 class="vit-team">Co-Patrons</h3>
-              </div>
-              <div class="grid-container">
-              <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2020/12/Sankar-Sir.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr.Sankar-Viswanathan</h6>                  
-                      </div>
+                  <div className="grid-container"></div>
+                  <div class="Co-patrons-body">
+                    <div class="Co-Patrons-wrapper">
+                      <h3 class="vit-team">Co-Patrons</h3>
                     </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2018/01/Sekhar-Sir-Resized.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. Sekar Viswanathan</h6>
+                    <div class="grid-container">
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2020/12/Sankar-Sir.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr.Sankar-Viswanathan</h6>
+                        </div>
                       </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2020/12/GV-Selvam-Sir.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Mr.G. V. Selvam</h6>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2018/01/Sekhar-Sir-Resized.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. Sekar Viswanathan</h6>
+                        </div>
                       </div>
-                    </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2020/12/GV-Selvam-Sir.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Mr.G. V. Selvam</h6>
+                        </div>
+                      </div>
 
-              <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2020/11/kottareddy.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. S. V. Kota Reddy</h6>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2020/11/kottareddy.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. S. V. Kota Reddy</h6>
+                        </div>
+                      </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-JAGADISH-CHANDRAMUDIGANTI.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. Jagadish Chandramudiganti</h6>
+                        </div>
                       </div>
                     </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-JAGADISH-CHANDRAMUDIGANTI.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. Jagadish Chandramudiganti</h6>
+                  </div>
+                  <div class="Co-patrons-body">
+                    <div class="Co-Patrons-wrapper">
+                      <h3 class="vit-team">Event Coordinators</h3>
+                    </div>
+                    <div class="grid-container">
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-SUDHAKAR-ILANGO-1.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. Sudhakar Ilango</h6>
+                        </div>
+                      </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-ANUPAMA-NAMBURU.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. Anupama Namburu</h6>
+                        </div>
+                      </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Mr.-K.-SAMUEL-JOHNSON.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Mr. K. Samuel Johnson!</h6>
+                        </div>
+                      </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2021/07/Monali-Bordoloi.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Monali Bordoloi</h6>
+                        </div>
+                      </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://i.im.ge/2023/01/19/sNxu8X.IMG-3659.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. Aswathy R K</h6>
+                        </div>
+                      </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-V.-RAVINDRAKUMAR.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. V. Manikanta Ravindra Kumar</h6>
+                        </div>
+                      </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://vitap.ac.in/wp-content/uploads/2022/02/Suresh-Jagannadham.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. Suresh Jagannadham</h6>
+                        </div>
                       </div>
                     </div>
+                  </div>
+                </div>
 
-              </div>
-              </div>
-              < div class="Co-patrons-body">
-              <div class="Co-Patrons-wrapper">
-              <h3 class="vit-team">Event Coordinators</h3>
-              </div>
-              <div class="grid-container">
-              <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-SUDHAKAR-ILANGO-1.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. Sudhakar Ilango</h6>
-                      </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-ANUPAMA-NAMBURU.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. Anupama Namburu</h6>
-                      </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2019/06/Mr.-K.-SAMUEL-JOHNSON.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Mr. K. Samuel Johnson!</h6>
-                      </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2021/07/Monali-Bordoloi.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Monali Bordoloi</h6>
-                      </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://i.im.ge/2023/01/19/sNxu8X.IMG-3659.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. Aswathy R K</h6>
-                      </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-V.-RAVINDRAKUMAR.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. V. Manikanta Ravindra Kumar</h6>
-                      </div>
-                    </div>
-                    <div className="grid-item">
-                      <div class="mention-card">
-                        <img
-                          src="https://vitap.ac.in/wp-content/uploads/2022/02/Suresh-Jagannadham.jpg"
-                          alt="mention-card"
-                        />
-                        <h6>Dr. Suresh Jagannadham</h6>
-                      </div>
-                    </div>
-                    </div>
-                  
-                    
-
-              </div>
-              </div>
-
-              
-
-                  {/* <div class="column">
+                {/* <div class="column">
    <div class="card"> 
   <img class="ViswanthanSir" src="https://vitap.ac.in/wp-content/uploads/2020/12/Viswanthan-Sir.jpg" alt="Viswanthan-Sir">
     </div>
@@ -478,63 +470,58 @@ export default function Hero() {
             </div>                     
    </div> 
  </div>                */}
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="promo-container-wrapper">
+          <div></div>
+          <div class="promo-container">
+            <div>
+              <div class="promo-container-text">
+                <h5 className="promo-subtitle">Grab Your Tickets</h5>
+                <h6 className="promo-title">Download the App</h6>
+              </div>
+              <div className="promo-links">
+                <div id="download" className="store-logos">
+                  <div className="logo-as text-center text-md-left">
+                    <a
+                      href="https://apps.apple.com/in/app/vitap-university-student-app/id6443920958"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src={appstore}
+                        alt="App Store Link"
+                        className="app-store-badge"
+                      />
+                    </a>
+                  </div>
+                  <div className="text-center text-md-left">
+                    <a
+                      href="https://play.google.com/store/apps/details?id=com.next.vitap"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                    >
+                      <img
+                        src={playstore}
+                        alt="playstore Store Link"
+                        className="app-store-badge"
+                      />
+                    </a>
+                  </div>
                 </div>
               </div>
             </div>
-            
-
-          </div>
-          <div className="promo-container-wrapper">
-            <div></div>
-          <div class="promo-container">
-            
-           <div>
-           <div class="promo-container-text">
-              <h5 className="promo-subtitle">Grab Your Tickets</h5>
-              <h6 className="promo-title">Download the App</h6>
-            </div>
-            <div className="promo-links">
-            <div id="download" className="store-logos">
-  <div className="logo-as text-center text-md-left">
-    <a
-      href="https://apps.apple.com/in/app/vitap-university-student-app/id6443920958"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src={appstore}
-        alt="App Store Link"
-        className="app-store-badge"
-      />
-    </a>
-  </div>
-  <div className="text-center text-md-left">
-    <a
-      href="https://play.google.com/store/apps/details?id=com.next.vitap"
-      target="_blank"
-      rel="noopener noreferrer"
-    >
-      <img
-        src={playstore}
-        alt="playstore Store Link"
-        className="app-store-badge"
-      />
-    </a>
-  </div>
-</div>
-            </div>
-           </div>
             <div className="app-screenshot">
-            <img
-              src={appscreenshot}
-              alt="App Store Link"
-              className="app-screenshot"
+              <img
+                src={appscreenshot}
+                alt="App Store Link"
+                className="app-screenshot"
               />
             </div>
           </div>
-            
-          </div>
-          
+        </div>
       </>
     </div>
   );

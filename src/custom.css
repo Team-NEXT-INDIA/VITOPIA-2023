@@ -84,11 +84,12 @@
   transform: scale(1.02);
 }
 
-.promo-container{
-  background-image: url('./assets/images/gradient-img.jpg');
+.promo-container {
+  background-image: url("./assets/images/gradient-img.jpg");
   height: 250px;
   width: 85%;
   display: flex;
+  overflow: hidden;
   border-radius: 25px;
   background-color: #ffffff;
   background-size: cover;
@@ -98,37 +99,37 @@
   align-content: stretch;
   align-items: center;
 }
-.promo-container-wrapper{
+.promo-container-wrapper {
   display: flex;
   justify-content: center;
 }
 
-.promo-subtitle{
+.promo-subtitle {
   color: #ffffffbd;
   font-weight: 300;
 }
-.promo-title{
+.promo-title {
   font-size: 40px;
 }
-.app-store-badge{
+.app-store-badge {
   height: 60px;
 }
-.store-logos{
-  display:flex;
+.store-logos {
+  display: flex;
 }
-.promo-container-text{
+.promo-container-text {
   padding-left: 150px;
 }
-.promo-links{
+.promo-links {
   padding-left: 150px;
 }
-.app-screenshot{
-  height: 240px;
+.app-screenshot {
+  height: 431px;
   position: relative;
-    right: 100px;
-    top: 3px;
+  right: 35px;
+  top: 43px;
 }
-.promo-container-wrapper{
+.promo-container-wrapper {
   padding-top: 40px;
   padding-bottom: 40px;
 }
