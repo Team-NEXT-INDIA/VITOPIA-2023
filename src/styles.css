@@ -12,6 +12,19 @@
   grid-row-gap: 16px;
   grid-column-gap: 16px;
 }
+.about-vitap {
+  font-size: 50px;
+}
+
+.about-boxing {
+  display: flex;
+  align-items: top;
+}
+.about-box {
+  display: flex;
+  align-items: top;
+}
+
 .about-img {
   display: flex;
   align-items: right;
@@ -44,9 +57,28 @@
   text-align: center;
   padding: 30px;
 }
+.vit-team2 {
+  text-align: center;
+  padding: 30px;
+}
+.vit-team3 {
+  text-align: center;
+  padding: 30px;
+}
+
 @media screen and (max-width: 600px) {
   .vit-team {
-    margin: auto 30px auto auto;
+    margin: auto 110px auto auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .vit-team2 {
+    margin: auto 0px auto auto;
+  }
+}
+@media screen and (max-width: 600px) {
+  .vit-team3 {
+    margin: auto 0px auto auto;
   }
 }
 
@@ -4609,7 +4641,7 @@ figure {
   border-width: 1px;
   border-radius: 40px;
   border-color: rgb(255, 255, 255);
-  background-color: rgb(0 0 0 / 41%);
+  background-color: rgb(0, 0, 0);
   -webkit-transition: all 200ms ease;
   transition: all 200ms ease;
   color: #ffffff;

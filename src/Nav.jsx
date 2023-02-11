@@ -116,10 +116,7 @@ export default function Nav() {
                                 </div>
                             </nav> */}
                 </div>
-                <div className="nav-dropdown-toggle w-dropdown-toggle">
-                  <div className="" />
-                  <p className="nav-item-title">Ticket</p>
-                </div>
+
                 {/* <div data-w-id="fe060b5d-81e8-a354-cdf4-64669c4ad870" class="nav-link-wrapper"><a href="/blog" class="nav-link">Team</a></div> */}
                 <div
                   data-hover="true"
@@ -161,7 +158,7 @@ export default function Nav() {
             <div className="navbar-button-wrapper">
               <a
                 id="register-btn"
-                href="https://vtop2.vitap.ac.in/vtop/initialProcess"
+                href="https://vtop1.vitap.ac.in/vitopia/"
                 target="_blank"
                 className="primary-button2 arrow-link-icon w-button"
               >

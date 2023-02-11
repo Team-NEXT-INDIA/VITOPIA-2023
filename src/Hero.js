@@ -287,7 +287,7 @@ export default function Hero() {
                   <div className="grid-container"></div>
                   <div class="Co-patrons-body">
                     <div class="Co-Patrons-wrapper">
-                      <h3 class="vit-team">Co-Patrons</h3>
+                      <h3 class="vit-team2">Co-Patrons</h3>
                     </div>
                     <div class="grid-container">
                       <div className="grid-item">
@@ -340,7 +340,7 @@ export default function Hero() {
                   </div>
                   <div class="Co-patrons-body">
                     <div class="Co-Patrons-wrapper">
-                      <h3 class="vit-team">Event Coordinators</h3>
+                      <h3 class="vit-team3">Event Coordinators</h3>
                     </div>
                     <div class="grid-container">
                       <div className="grid-item">
