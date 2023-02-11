@@ -406,6 +406,15 @@ export default function Hero() {
                           <h6>Dr. Suresh Jagannadham</h6>
                         </div>
                       </div>
+                      <div className="grid-item">
+                        <div class="mention-card">
+                          <img
+                            src="https://i.im.ge/2023/02/11/a3WyeD.DSC-0017-JPG.jpg"
+                            alt="mention-card"
+                          />
+                          <h6>Dr. Sayyed Faizan Ali</h6>
+                        </div>
+                      </div>
                     </div>
                   </div>
                 </div>
