@@ -112,13 +112,13 @@
   font-size: 40px;
 }
 .app-store-badge {
-  height: 60px;
+  height: 48px;
 }
 .store-logos {
   display: flex;
 }
 .promo-container-text {
-  padding-left: 150px;
+  padding-left: 30px;
 }
 .promo-links {
   padding-left: 150px;
