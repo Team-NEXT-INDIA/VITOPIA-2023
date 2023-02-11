@@ -6,13 +6,9 @@
 .full-500{
     height: 500px;
 }
-.Title{
-    padding-top:90px;
-    padding-left: 25px;
-    color: white;
-    font-size: 80px;
-    font-family :'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    
-    
+.Aboutpage-title{
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 50px;
 }
 

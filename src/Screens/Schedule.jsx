@@ -6,15 +6,15 @@ export default function Schedule() {
   return (
     <div><>
     <Nav/>
-    <div className="full-500">
-  <img
-    className="full-width"
-    alt="Party"
-    src="https://i.im.ge/2023/02/09/aNAhAp.david-svihovec-5X2ViX-r0ZA-unsplash.jpg"
-  />
-</div>
-  </>
+      </>
+  <div><h3 className='Aboutpage-title'>Events
+  </h3></div>
+  <div className='events-card'>
+    
   </div>
+    
+</div>
+  
 
   )
 }
