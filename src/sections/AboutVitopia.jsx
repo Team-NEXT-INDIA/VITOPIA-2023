@@ -21,7 +21,7 @@ export default function Aboutvitopia() {
           data-aos="fade-left"
           data-aos-delay="10"
           data-aos-duration="1000"
-          className="wf-ull lg:w-1/2"
+          className="w-full lg:w-1/2"
         >
           <p className="text-sm font-medium text-blue-500 dark:text-blue-400">
             #VITOPIA
@@ -49,7 +49,7 @@ export default function Aboutvitopia() {
 
           <div id="NAV-HEAD" className="flex items-center mt-6 gap-x-3">
             <a target="_blank" href="https://vtop1.vitap.ac.in/vitopia/">
-              <button className="w-1/2 px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
+              <button className="w-full px-5 py-2 text-sm tracking-wide text-white transition-colors duration-200 bg-blue-500 rounded-lg shrink-0 sm:w-auto hover:bg-blue-600 dark:hover:bg-blue-500 dark:bg-blue-600">
                 Register Now
               </button>
             </a>
