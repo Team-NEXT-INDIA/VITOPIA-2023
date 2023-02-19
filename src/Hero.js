@@ -1,12 +1,15 @@
-import React from "react";
-import "./styles.css";
-import "./stylev2.css";
-import "./custom.css";
-import herowebp from "./assets/videos/Fireworks.webm";
-import heromp from "./assets/videos/Fireworks.mp4";
-import appstore from "./assets/images/appstore.png";
-import playstore from "./assets/images/playstore.png";
-import appscreenshot from "./assets/images/appscreenshot.png";
+import React from 'react'
+import './styles.css'
+import './stylev2.css'
+import './custom.css'
+import herowebp from './assets/videos/Fireworks.webm'
+import heromp from './assets/videos/Fireworks.mp4'
+import appstore from './assets/images/appstore.png'
+import playstore from './assets/images/playstore.png'
+import appscreenshot from './assets/images/appscreenshot.png'
+import Slider from './sections/GuestSlider'
+import Aboutvitap from './sections/Aboutvitap'
+import Aboutvitopia from './sections/AboutVitopia'
 export default function Hero() {
   return (
     <div>
@@ -61,7 +64,12 @@ export default function Hero() {
           
           
         </div> */}
-        <div className="top-banner-section wf-section">
+        <div
+          data-aos="fade"
+          data-aos-delay="50"
+          data-aos-duration="1000"
+          className="top-banner-section wf-section"
+        >
           <div
             data-poster-url="https://i.ibb.co/N3mvRPn/Fireworks-img.png"
             data-video-urls={heromp}
@@ -91,18 +99,72 @@ export default function Hero() {
               style={{ opacity: 0 }}
               className="max-width-580"
             />
-            <div>
+
+            <div
+              data-aos="fade-up"
+              data-aos-delay="70"
+              data-aos-duration="1000"
+            >
               <img
                 className="Vitopia21"
                 src="https://i.ibb.co/M7JKbgz/vitopia-white.png"
                 alt="Vitpoia image"
               />
             </div>
-            <a href="#SECTION-EXPLORE">
-              <a href="/contact-us" className="primary-button w-button">
-                Explore Now
-              </a>
-            </a>
+            <h3
+              data-aos="fade-up"
+              data-aos-delay="100"
+              data-aos-duration="1000"
+              data-w-id="6c989e35-61e6-1bb0-755b-8f234f641608"
+              className="landing-title-sub"
+            >
+              Get Ready For
+            </h3>
+            <h3
+              data-aos="fade-up"
+              data-aos-delay="130"
+              data-aos-duration="1000"
+              data-w-id="6c989e35-61e6-1bb0-755b-8f234f641608"
+              className="landing-title-main"
+            >
+              International Sports and Cultural Fiesta
+            </h3>
+
+            <div
+              data-aos="fade"
+              data-aos-delay="180"
+              data-aos-duration="1000"
+              className="explor-hero"
+            >
+              <h6 className="explore-title">Explore Now</h6>
+              <svg
+                className="arrow"
+                fill="#ffffff"
+                height="200px"
+                width="200px"
+                version="1.1"
+                id="Layer_1"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlnsXlink="http://www.w3.org/1999/xlink"
+                viewBox="0 0 330 330"
+                xmlSpace="preserve"
+                stroke="#ffffff"
+              >
+                <g id="SVGRepo_bgCarrier" strokeWidth={0} />
+                <g
+                  id="SVGRepo_tracerCarrier"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+                <g id="SVGRepo_iconCarrier">
+                  {' '}
+                  <path
+                    id="XMLID_225_"
+                    d="M325.607,79.393c-5.857-5.857-15.355-5.858-21.213,0.001l-139.39,139.393L25.607,79.393 c-5.857-5.857-15.355-5.858-21.213,0.001c-5.858,5.858-5.858,15.355,0,21.213l150.004,150c2.813,2.813,6.628,4.393,10.606,4.393 s7.794-1.581,10.606-4.394l149.996-150C331.465,94.749,331.465,85.251,325.607,79.393z"
+                  />{' '}
+                </g>
+              </svg>
+            </div>
           </div>
 
           <div
@@ -125,65 +187,9 @@ export default function Hero() {
             </div>
           </div>
         </div>
-        {/* <div class="section wf-section">
-  <div class="base-container w-container">
-      <div data-w-id="b03bb9b9-9103-77e5-fb61-c375ec824170" style="opacity:0" class="section-title-wrapper">
-          <h3>About Vitopia</h3><a href="/works-3" class="link-with-icon">View More<span class="link-arrow-icon"> </span></a></div>
-      <div class="home-3-latest-projects-wrapper">
-          <div class="w-layout-grid e-1-background-videos home-3">
-              <div data-poster-url="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e84badcfdbd148469028_pexels-ron-lach-10669343 (online-video-cuttercom)-poster-00001.jpg" data-video-urls="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e84badcfdbd148469028_pexels-ron-lach-10669343 (online-video-cuttercom)-transcode.mp4,https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e84badcfdbd148469028_pexels-ron-lach-10669343 (online-video-cuttercom)-transcode.webm"
-                  data-autoplay="true" data-loop="true" data-wf-ignore="true" id="w-node-cb2bed27-a200-0603-8d53-2dc442e557d8-05ad19d8" class="latest-works-video-item w-background-video w-background-video-atom"><video id="cb2bed27-a200-0603-8d53-2dc442e557d8-video" autoplay="" loop="" style="background-image:url(&quot;https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e84badcfdbd148469028_pexels-ron-lach-10669343 (online-video-cuttercom)-poster-00001.jpg&quot;)"
-                      muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e84badcfdbd148469028_pexels-ron-lach-10669343 (online-video-cuttercom)-transcode.mp4" data-wf-ignore="true"/><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e84badcfdbd148469028_pexels-ron-lach-10669343 (online-video-cuttercom)-transcode.webm" data-wf-ignore="true"/></video></div>
-              <div
-                  data-poster-url="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e872ac476c9eb74d39f9_production ID_3818213 (online-video-cuttercom)-poster-00001.jpg" data-video-urls="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e872ac476c9eb74d39f9_production ID_3818213 (online-video-cuttercom)-transcode.mp4,https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e872ac476c9eb74d39f9_production ID_3818213 (online-video-cuttercom)-transcode.webm"
-                  data-autoplay="true" data-loop="true" data-wf-ignore="true" id="w-node-cb2bed27-a200-0603-8d53-2dc442e557d9-05ad19d8" class="latest-works-video-item w-background-video w-background-video-atom"><video id="cb2bed27-a200-0603-8d53-2dc442e557d9-video" autoplay="" loop="" style="background-image:url(&quot;https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e872ac476c9eb74d39f9_production ID_3818213 (online-video-cuttercom)-poster-00001.jpg&quot;)"
-                      muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e872ac476c9eb74d39f9_production ID_3818213 (online-video-cuttercom)-transcode.mp4" data-wf-ignore="true"/><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e872ac476c9eb74d39f9_production ID_3818213 (online-video-cuttercom)-transcode.webm" data-wf-ignore="true"/></video></div>
-          <div
-              data-poster-url="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8c12083d1c3be6afa59_1333333 (2)-poster-00001.jpg" data-video-urls="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8c12083d1c3be6afa59_1333333 (2)-transcode.mp4,https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8c12083d1c3be6afa59_1333333 (2)-transcode.webm"
-              data-autoplay="true" data-loop="true" data-wf-ignore="true" id="w-node-cb2bed27-a200-0603-8d53-2dc442e557da-05ad19d8" class="latest-works-video-item w-background-video w-background-video-atom"><video id="cb2bed27-a200-0603-8d53-2dc442e557da-video" autoplay="" loop="" style="background-image:url(&quot;https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8c12083d1c3be6afa59_1333333 (2)-poster-00001.jpg&quot;)" muted=""
-                  playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8c12083d1c3be6afa59_1333333 (2)-transcode.mp4" data-wf-ignore="true"/><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8c12083d1c3be6afa59_1333333 (2)-transcode.webm" data-wf-ignore="true"/></video></div>
-      <div
-          data-poster-url="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8a28f2fdf3531a58549_pexels-ron-lach-8089122 (online-video-cuttercom)-poster-00001.jpg" data-video-urls="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8a28f2fdf3531a58549_pexels-ron-lach-8089122 (online-video-cuttercom)-transcode.mp4,https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8a28f2fdf3531a58549_pexels-ron-lach-8089122 (online-video-cuttercom)-transcode.webm"
-          data-autoplay="true" data-loop="true" data-wf-ignore="true" id="w-node-cb2bed27-a200-0603-8d53-2dc442e557db-05ad19d8" class="latest-works-video-item w-background-video w-background-video-atom"><video id="cb2bed27-a200-0603-8d53-2dc442e557db-video" autoplay="" loop="" style="background-image:url(&quot;https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8a28f2fdf3531a58549_pexels-ron-lach-8089122 (online-video-cuttercom)-poster-00001.jpg&quot;)"
-              muted="" playsinline="" data-wf-ignore="true" data-object-fit="cover"><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8a28f2fdf3531a58549_pexels-ron-lach-8089122 (online-video-cuttercom)-transcode.mp4" data-wf-ignore="true"/><source src="https://assets.website-files.com/636e23ecf118df495e7a2aca/6389e8a28f2fdf3531a58549_pexels-ron-lach-8089122 (online-video-cuttercom)-transcode.webm" data-wf-ignore="true"/></video></div>
-    </div>
-    <div class="home-1-latest-works-collection w-dyn-list">
-  <div role="list" class="home-1-latest-works-list home-3 w-dyn-items">
-      <div role="listitem" class="home-3-latest-works-item w-dyn-item"><a href="/works/martimaz-fachion" class="home-projects-overlay w-inline-block"></a>
-          <div class="project-title-wrapper">
-              <a href="/works/martimaz-fachion" class="projects-1-latest-works-wrap w-inline-block">
-                  <h4 class="projects-name">Martinaz Fachion</h4>
-              </a>
-          </div>
-      </div>
-      <div role="listitem" class="home-3-latest-works-item w-dyn-item"><a href="/works/church" class="home-projects-overlay w-inline-block"></a>
-          <div class="project-title-wrapper">
-              <a href="/works/church" class="projects-1-latest-works-wrap w-inline-block">
-                  <h4 class="projects-name">Church</h4>
-              </a>
-          </div>
-      </div>
-      <div role="listitem" class="home-3-latest-works-item w-dyn-item"><a href="/works/rancho-presentation" class="home-projects-overlay w-inline-block"></a>
-          <div
-              class="project-title-wrapper">
-              <a href="/works/rancho-presentation" class="projects-1-latest-works-wrap w-inline-block">
-                  <h4 class="projects-name">Rancho Presentation</h4>
-              </a>
-      </div>
-  </div>
-  <div role="listitem" class="home-3-latest-works-item w-dyn-item"><a href="/works/saloni-production" class="home-projects-overlay w-inline-block"></a>
-      <div class="project-title-wrapper">
-          <a href="/works/saloni-production" class="projects-1-latest-works-wrap w-inline-block">
-              <h4 class="projects-name">Saloni Production</h4>
-          </a>
-      </div>
-  </div>
-    </div>
-    </div>
-    </div>
-    </div>
-    </div> */}
-        <div className="section wf-section">
+        <Aboutvitap />
+        <Aboutvitopia />
+        {/* <div className="section wf-section">
           <div className="base-container w-container">
             <div className="w-dyn-list">
               <div
@@ -196,7 +202,7 @@ export default function Hero() {
                   role="listitem"
                   className="w-dyn-item"
                 ></div>
-                <a href="/works-categories/visual" className="w-inline-block">
+                <a href="/schedule" className="w-inline-block">
                   <div
                     id="SECTION-EXPLORE"
                     className=" extra-bold-text hover-animation"
@@ -211,7 +217,7 @@ export default function Hero() {
                   className="w-dyn-item"
                 ></div>
                 <a
-                  href="/works-categories/animation"
+                  href="/schedule"
                   className="w-inline-block"
                 >
                   <div className="extra-bold-text hover-animation">
@@ -224,314 +230,164 @@ export default function Hero() {
                   role="listitem"
                   className="w-dyn-item"
                 ></div>
-                <a href="/works-categories/colors" className="w-inline-block">
+                <a href="/schedule" className="w-inline-block">
                   <div className="extra-bold-text hover-animation">Venues</div>
                 </a>
               </div>
             </div>
           </div>
-        </div>
-        <div id="SECTION-ABOUT" className="section wf-section">
+        </div> */}
+        {/* <div className="section wf-section">
           <div className="base-container w-container">
-            <div className="video-info-content-wrapper">
-              <div className="video-info-block-wrapper">
-                {/* <div data-w-id="7b8cdea4-e2ee-261f-5d63-07e80b4d0850" style="opacity:0" class="home-video-player home-3"><img src="https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208.webp" loading="lazy" sizes="(max-width: 479px) 100vw, (max-width: 767px) 96vw, (max-width: 991px) 97vw, (max-width: 1279px) 49vw, 570px"
-                  srcset="https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208-p-500.webp 500w, https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208-p-800.webp 800w, https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208-p-1080.webp 1080w, https://assets.website-files.com/636e23ecf118df495e7a2aca/637f5a0e5c6c040ec2493638_Rectangle%208.webp 1170w"
-                  alt="" class="video-player-image home-3" /> */}
-              </div>
-            </div>
-
-            <h3 className="about-head">About Vitopia</h3>
-            <br></br>
-
-            <p className="about-des">
-              VITOPIA is the annual international cultural and sports festival
-              conducted by VIT - AP University as a celebration of its endless
-              enthusiasm towards various sport and art forms. VITOPIA 2023 is
-              the fourth edition of this extravaganza of culture and sports,
-              which is to be conducted on 4th and 5th of March 2023. The
-              devotion and urge towards this event among the student population
-              across the country is the distinguishing factor of VITOPIA from
-              other cultural fests. VITOPIA 2023 brings eminent personalities
-              including one of India’s most successful sportspersons, Ms. P V
-              Sindhu, established musician Mr. Devi Sri Prasad (DSP), acclaimed
-              film Director Mr. Narendra Nath, Stand up comedian Rajasekhar
-              Mamidanna , as well as renowned music bands such as Indian Ocean
-              and Chemmen , to the university.
-            </p>
-          </div>
-        </div>
-        {/* <div id="SECTION-SCHEDULE" class="Schedule1">
-  <h3>Schedule</h3><br>
-   
-    </div> */}
-        <div id="SECTION-COORDI" className="base-container w-container">
-          <div className="video-info-content-wrapper">
-            <div className="video-info-block-wrapper">
-              <h3
-                data-w-id="db319d20-7649-22f9-2eac-83d178790800"
-                style={{ opacity: 0 }}
-              />
-              <h3 className="vit-team">Patrons</h3>
-              <div>
-                <div>
-                  <div className="grid-item">
-                    <div class="mention-card ">
-                      <img
-                        src="https://vitap.ac.in/wp-content/uploads/2020/12/Viswanthan-Sir.jpg"
-                        alt="mention-card"
-                      />
-                      <h6>Dr. G. Viswanathan</h6>
-                    </div>
-                  </div>
-                  <div className="grid-container"></div>
-                  <div class="Co-patrons-body">
-                    <div class="Co-Patrons-wrapper">
-                      <h3 class="vit-team2">Co-Patrons</h3>
-                    </div>
-                    <div class="grid-container">
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2020/12/Sankar-Sir.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr.Sankar-Viswanathan</h6>
-                        </div>
+            <div className="text-lines-wrapper">
+              <div
+                data-w-id="ad328879-4704-47e5-1199-4f1daa319f53"
+                className="w-dyn-list"
+                style={{
+                  opacity: 1,
+                  transform:
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                }}
+              >
+                <div role="list" className="text-lines-wrapper w-dyn-items">
+                  <div
+                    role="listitem"
+                    className="text-and-image-lines-wrapper w-dyn-item"
+                  >
+                    <a
+                      href="/schedule"
+                      className="category-ablsolute-link w-inline-block"
+                    >
+                      <div
+                        className="extra-bold-text hover-animation"
+                        style={{}}
+                      >
+                        Events
                       </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2018/01/Sekhar-Sir-Resized.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. Sekar Viswanathan</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2020/12/GV-Selvam-Sir.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Mr.G. V. Selvam</h6>
-                        </div>
-                      </div>
-
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2020/11/kottareddy.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. S. V. Kota Reddy</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-JAGADISH-CHANDRAMUDIGANTI.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. Jagadish Chandramudiganti</h6>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="Co-patrons-body">
-                    <div class="Co-Patrons-wrapper">
-                      <h3 class="vit-team3">Event Coordinators</h3>
-                    </div>
-                    <div class="grid-container">
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-SUDHAKAR-ILANGO-1.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. Sudhakar Ilango</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-ANUPAMA-NAMBURU.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. Anupama Namburu</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Mr.-K.-SAMUEL-JOHNSON.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Mr. K. Samuel Johnson!</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2021/07/Monali-Bordoloi.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Monali Bordoloi</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://i.im.ge/2023/01/19/sNxu8X.IMG-3659.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. Aswathy R K</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-V.-RAVINDRAKUMAR.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. V. Manikanta Ravindra Kumar</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://vitap.ac.in/wp-content/uploads/2022/02/Suresh-Jagannadham.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. Suresh Jagannadham</h6>
-                        </div>
-                      </div>
-                      <div className="grid-item">
-                        <div class="mention-card">
-                          <img
-                            src="https://i.im.ge/2023/02/11/a3WyeD.DSC-0017-JPG.jpg"
-                            alt="mention-card"
-                          />
-                          <h6>Dr. Sayyed Faizan Ali</h6>
-                        </div>
+                    </a>
+                    <div className="image-wrapped-down first-item">
+                      <a href="/schedule" className="absolte w-inline-block" />
+                      <div
+                        style={{ paddingTop: '74.94252873563218%' }}
+                        className="background-video-visual w-video w-embed"
+                      >
+                        <iframe
+                          className="embedly-embed"
+                          src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fgiphy.com%2Fembed%2FL95TJSriuxoCPCguRE%2Ftwitter%2Fiframe&display_name=Giphy&url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2FL95TJSriuxoCPCguRE%2Fgiphy.gif&image=https%3A%2F%2Fi.giphy.com%2Fmedia%2FL95TJSriuxoCPCguRE%2Fgiphy-downsized-large.gif&key=96f1f04c5f4143bcb0f2e68c87d65feb&type=text%2Fhtml&schema=giphy"
+                          width={435}
+                          height={326}
+                          scrolling="no"
+                          title="Giphy embed"
+                          frameBorder={0}
+                          allow="autoplay; fullscreen"
+                          allowFullScreen="true"
+                        />
                       </div>
                     </div>
                   </div>
                 </div>
-
-                {/* <div class="column">
-   <div class="card"> 
-  <img class="ViswanthanSir" src="https://vitap.ac.in/wp-content/uploads/2020/12/Viswanthan-Sir.jpg" alt="Viswanthan-Sir">
-    </div>
-  </div>
-  <div class="column">
-    <div class="card"> 
-   <img class="KotaReddySir" src="https://vitap.ac.in/wp-content/uploads/2020/11/kottareddy.jpg" alt="SV-Kota-Reddy-Sir">
-    </div>
-  </div>
-  <div class="column">
-    <div class="card"> 
-   <img class="RegisterSir" src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-JAGADISH-CHANDRAMUDIGANTI.jpg" alt="Register">
-  </div>
-    </div>
-</div>
-<div class="row">
- 
-  <div class="column">
-    <div class="card"> 
-   <img class="SudhakarSir" src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-SUDHAKAR-ILANGO-1.jpg" alt="-SUDHAKAR-ILANGO-1">
-    </div>
-  </div>     
-   <div class="column">
-    <div class="card"> 
-   <img class="AnupamaMam" src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-ANUPAMA-NAMBURU.jpg" alt="-ANUPAMA-NAMBURU">
-    </div>
-  </div>      
-   <div class="column">
-    <div class="card"> 
-   <img class="SamuelSir" src="https://vitap.ac.in/wp-content/uploads/2019/06/Mr.-K.-SAMUEL-JOHNSON.jpg" alt="-SAMUEL-JOHNSON">
-    </div>
-  </div>   
- <div class="column">
-    <div class="card"> 
-    <img class="MonaliMam" src="https://vitap.ac.in/wp-content/uploads/2021/07/Monali-Bordoloi.jpg" alt="Monali-Bordoloi">
-    </div>
-  </div>   
-<div class="column">
-    <div class="card"> 
-     <img class="FaizanSir" src="https://i.im.ge/2023/01/19/sAlUpK.DSC-0017-JPG.jpg" alt="Faizan-Ali">
-    </div>
-  </div>                
-  <div class="column">
-    <div class="card"> 
-     <img class="AswathyMam" src="https://i.im.ge/2023/01/19/sNxu8X.IMG-3659.jpg" alt="Aswathy">
-    </div>
-  </div>                  
-          <div class="column">
-    <div class="card"> 
-     <img class="RavindraSir" src="https://vitap.ac.in/wp-content/uploads/2019/06/Dr.-V.-RAVINDRAKUMAR.jpg" alt="-RAVINDRAKUMAR">
-    </div>
-  </div>            
-         <div class="column">
-    <div class="card"> 
-     <img class="SureshSir" src="https://vitap.ac.in/wp-content/uploads/2022/02/Suresh-Jagannadham.jpg" alt="Suresh-Jagannadham">
+              </div>
+              <div
+                data-w-id="ad328879-4704-47e5-1199-4f1daa319f5e"
+                className="w-dyn-list"
+                style={{
+                  opacity: 1,
+                  transform:
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                }}
+              >
+                <div role="list" className="text-lines-wrapper w-dyn-items">
+                  <div
+                    role="listitem"
+                    className="text-and-image-lines-wrapper reversed w-dyn-item"
+                  >
+                    <div className="image-wrapped-down mid-item">
+                      <a href="/schedule" className="absolte w-inline-block" />
+                      <div
+                        style={{ paddingTop: '56.32183908045977%' }}
+                        className="background-video-animation w-video w-embed"
+                      >
+                        <iframe
+                          className="embedly-embed"
+                          src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fgiphy.com%2Fembed%2F44F9m2Uaonygg%2Ftwitter%2Fiframe&display_name=Giphy&url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F44F9m2Uaonygg%2Fgiphy.gif&image=https%3A%2F%2Fi.giphy.com%2Fmedia%2F44F9m2Uaonygg%2Fgiphy.gif&key=c4e54deccf4d4ec997a64902e9a30300&type=text%2Fhtml&schema=giphy"
+                          width={435}
+                          height={245}
+                          scrolling="no"
+                          title="Giphy embed"
+                          frameBorder={0}
+                          allow="autoplay; fullscreen"
+                          allowFullScreen="true"
+                        />
+                      </div>
                     </div>
-            </div>                     
-   </div> 
- </div>                */}
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="promo-container-wrapper">
-          <div></div>
-          <div class="promo-container">
-            <div>
-              <div class="promo-container-text">
-                <h5 className="promo-subtitle">Grab Your Tickets</h5>
-                <h6 className="promo-title">Download the App</h6>
-              </div>
-              <div className="promo-links">
-                <div id="download" className="store-logos">
-                  <div className="logo-as text-center text-md-left">
                     <a
-                      href="https://apps.apple.com/in/app/vitap-university-student-app/id6443920958"
-                      target="_blank"
-                      rel="noopener noreferrer"
+                      href="/schedule"
+                      className="category-ablsolute-link right-align w-inline-block"
                     >
-                      <img
-                        src={appstore}
-                        alt="App Store Link"
-                        className="app-store-badge"
-                      />
-                    </a>
-                  </div>
-                  <div className="text-center text-md-left">
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.next.vitap"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      <img
-                        src={playstore}
-                        alt="playstore Store Link"
-                        className="app-store-badge"
-                      />
+                      <div
+                        className="extra-bold-text hover-animation"
+                        style={{}}
+                      >
+                        ProShows
+                      </div>
                     </a>
                   </div>
                 </div>
               </div>
-            </div>
-            <div className="app-screenshot">
-              <img
-                src={appscreenshot}
-                alt="App Store Link"
-                className="app-screenshot"
-              />
+              <div
+                data-w-id="ad328879-4704-47e5-1199-4f1daa319f69"
+                className="w-dyn-list"
+                style={{
+                  opacity: 1,
+                  transform:
+                    'translate3d(0px, 0px, 0px) scale3d(1, 1, 1) rotateX(0deg) rotateY(0deg) rotateZ(0deg) skew(0deg, 0deg)',
+                  transformStyle: 'preserve-3d',
+                }}
+              >
+                <div role="list" className="w-dyn-items">
+                  <div
+                    role="listitem"
+                    className="text-and-image-lines-wrapper w-dyn-item"
+                  >
+                    <a
+                      href="/schedule"
+                      className="category-ablsolute-link w-inline-block"
+                    >
+                      <div
+                        className="extra-bold-text hover-animation"
+                        style={{}}
+                      >
+                        Venues
+                      </div>
+                    </a>
+                    <div className="image-wrapped-down last-item">
+                      <div
+                        style={{ paddingTop: '56.09195402298851%' }}
+                        className="background-video-colors w-video w-embed"
+                      >
+                        <iframe
+                          className="embedly-embed"
+                          src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fgiphy.com%2Fembed%2Fyq5UdrX0j9780maQuO%2Ftwitter%2Fiframe&display_name=Giphy&url=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2Fyq5UdrX0j9780maQuO%2Fgiphy.gif&image=https%3A%2F%2Fi.giphy.com%2Fmedia%2Fyq5UdrX0j9780maQuO%2Fgiphy-downsized-large.gif&key=c4e54deccf4d4ec997a64902e9a30300&type=text%2Fhtml&schema=giphy"
+                          width={435}
+                          height={244}
+                          scrolling="no"
+                          title="Giphy embed"
+                          frameBorder={0}
+                          allow="autoplay; fullscreen"
+                          allowFullScreen="true"
+                        />
+                      </div>
+                      <a href="/schedule" className="absolte w-inline-block" />
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </>
     </div>
-  );
+  )
 }

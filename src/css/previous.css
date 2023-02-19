@@ -1,0 +1,32 @@
+.row > div {
+  padding: 0 4px !important;
+}
+
+.vitopia-image-card {
+  border-radius: 10px;
+  margin-top: 8px;
+  vertical-align: middle;
+  transition: 0.5s all ease-in-out;
+}
+
+.vitopia-image-card:hover {
+  transform: scale(0.99);
+}
+.vitopia-image-card-height {
+  border-radius: 10px;
+}
+@media screen and (max-width: 600px) {
+  .vitopia-image-card-height {
+    border-radius: 10px;
+    height: 17rem !important;
+  }
+  .vitopia-image-position {
+    object-position: top;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .vitopia-guests-padding {
+    padding: 100px;
+  }
+}

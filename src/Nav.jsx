@@ -1,25 +1,29 @@
-import React from "react";
-import "./styles.css";
-import "./stylev2.css";
-import "./scroll.js";
-import ScrollToTop from "react-scroll-to-top";
-import { Outlet, Link } from "react-router-dom";
-import { NavLink } from "react-router-dom";
-
+import React from 'react'
+import './styles.css'
+import './stylev2.css'
+import './scroll.js'
+import ScrollToTop from 'react-scroll-to-top'
+import { Outlet, Link } from 'react-router-dom'
+import { NavLink } from 'react-router-dom'
+import vitap from './assets/images/vitap-logo.png'
+import closeicon from './assets/images/close.svg'
 export default function Nav() {
-  window.addEventListener("scroll", function () {
-    const header = document.getElementById("NAV-HEAD");
+  window.addEventListener('scroll', function () {
+    const header = document.getElementById('NAV-HEAD')
     if (window.scrollY > 10) {
-      header.style.backgroundColor = "#101010";
+      header.style.backgroundColor = 'rgb(0, 0, 0)'
     } else {
-      header.style.backgroundColor = "initial";
+      header.style.backgroundColor = 'initial'
     }
-  });
+  })
 
   return (
     <div>
       <ScrollToTop smooth />
       <div
+        data-aos="fade-down"
+        data-aos-delay="50"
+        data-aos-duration="1000"
         id="NAV-HEAD"
         data-animation="over-left"
         className="navbar navbar-fixed-top scrolled w-nav"
@@ -33,10 +37,10 @@ export default function Nav() {
       >
         <div className="nav-container w-container">
           <div className="nav-menu-wrapper">
-            <a href="/home" className="brand w-nav-brand">
+            <a href="/" className="brand w-nav-brand">
               <img
                 className="vtop-png"
-                src="https://vtop2.vitap.ac.in/vtop/assets/img/new%20VIT_AP%20logo.png"
+                src={vitap}
                 loading="lazy"
                 height="Auto"
                 alt=""
@@ -47,7 +51,7 @@ export default function Nav() {
                 <a href="#" className="brand-tablet w-nav-brand" />
                 <div className="close-menu-button w-nav-button">
                   <img
-                    src="https://i.ibb.co/fnhTqM2/cross.png`"
+                    src={closeicon}
                     loading="lazy"
                     alt=""
                     className="nav-close-icon"
@@ -76,7 +80,7 @@ export default function Nav() {
                                 </div>
                             </nav> */}
                 </div>
-                <div
+                {/* <div
                   data-hover="true"
                   data-delay={0}
                   data-w-id="ad0925c3-4db7-e584-bbd6-dfdc92cee963"
@@ -88,13 +92,7 @@ export default function Nav() {
                       <p className="nav-item-title">About</p>
                     </Link>
                   </div>
-                  {/* <nav class="nav-dropdown-list w-dropdown-list">
-                                <div class="nav-dropdown-link-wrapper"><a href="/about-us" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>About 1</a><a href="/about-us-2" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>About 2</a>
-                                    <a
-                                        href="/about-us-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>About 3</a>
-                                </div>
-                            </nav> */}
-                </div>
+                </div> */}
                 <div
                   data-hover="true"
                   data-delay={0}
@@ -121,37 +119,23 @@ export default function Nav() {
                 <div
                   data-hover="true"
                   data-delay={0}
-                  data-w-id="ad0925c3-4db7-e584-bbd6-dfdc92cee93f"
+                  data-w-id="a6fdb6f4-b917-73e8-43aa-9aca0856e073"
                   className="nav-dropdown w-dropdown"
                 >
                   <div className="nav-dropdown-toggle w-dropdown-toggle">
                     <div className="nav-dropdown-icon w-icon-dropdown-toggle" />
-                    <p className="nav-item-title">Team</p>
-                  </div>
-                  <nav className="nav-dropdown-list ticket w-dropdown-list">
-                    <div className="nav-dropdown-column">
-                      <div className="nav-dropdown-link-wrapper">
-                        <a href="#SECTION-COORDI">
-                          {" "}
-                          <a
-                            href="/contact-us"
-                            className="nav-dropdown-link w-dropdown-link"
-                          >
-                            <span className="nav-dropdown-link-line"> </span>
-                            Patrons
-                          </a>
-                        </a>
 
-                        <a
-                          href="/401"
-                          className="nav-dropdown-link w-dropdown-link"
-                        >
-                          <span className="nav-dropdown-link-line"> </span>
-                          Developers
-                        </a>
-                      </div>
-                    </div>
-                  </nav>
+                    <Link to="/team">
+                      <p className="nav-item-title">Team</p>
+                    </Link>
+                  </div>
+                  {/* <nav class="nav-dropdown-list w-dropdown-list">
+                                <div class="nav-dropdown-column">
+                                    <div class="nav-dropdown-link-wrapper"><a href="/works" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Our Works 1</a><a href="/works-2" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Our Works 2</a>
+                                        <a
+                                            href="/works-3" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Our Works 3</a><a href="/works/saloni-production" class="nav-dropdown-link w-dropdown-link"><span class="nav-dropdown-link-line"> </span>Works Details</a></div>
+                                </div>
+                            </nav> */}
                 </div>
               </div>
             </nav>
@@ -178,5 +162,5 @@ export default function Nav() {
         </div>
       </div>
     </div>
-  );
+  )
 }

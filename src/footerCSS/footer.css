@@ -122,7 +122,7 @@ section {
 }
 
 .single_footer h4::after {
-  content: "";
+  content: '';
   display: block;
   height: 2px;
   width: 40px;
@@ -326,4 +326,8 @@ button {
 
 .copyright a:hover {
   color: #a5a5a5;
+}
+
+.footer-bg-dark {
+  background-color: #0f0f0f;
 }

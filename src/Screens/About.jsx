@@ -1,18 +1,14 @@
-import React from "react";
-import Nav from "../Nav";
-import "../stylev2.css";
-
+import React from 'react'
+import Nav from '../Nav'
+import '../stylev2.css'
+import vitap from './../assets/images/vitap.jpeg'
 export default function About() {
   return (
     <>
       <Nav />
 
       <div className="full-500">
-        <img
-          className="full-width"
-          alt="Vit-ap drone shot"
-          src="https://i.im.ge/2023/02/10/atbs0X.1-DJI-0226-1.jpg"
-        />
+        <img className="full-width" alt="Vit-ap drone shot" src={vitap} />
       </div>
       <div className="about-boxing">
         <div className="about-page">
@@ -32,5 +28,5 @@ export default function About() {
         </p>
       </div>
     </>
-  );
+  )
 }
