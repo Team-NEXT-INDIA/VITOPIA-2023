@@ -11,35 +11,293 @@ const events = [
     day: 1,
     image: placeholder,
     location: 'AB2 AMPHI',
-    timing: '10:00 AM - 12:00 PM',
+    timing: '2:00 PM - 3:00 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Classical',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 1,
+    image: placeholder,
+    location: 'AB2 AMPHI',
+    timing: '3:00 PM - 5:00 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Modern',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 1,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '2:00 PM - 3:00 PM',
+    categorie: 'Group',
+    sub_categorie: 'Classical',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 1,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '11:00 AM - 1:00 PM',
+    categorie: 'Group',
+    sub_categorie: 'Modern',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 1,
+    image: placeholder,
+    location: 'NEWTON HAll',
+    timing: '11:00 AM - 1:00 PM',
+    categorie: 'Battle',
+    sub_categorie: '-',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 2,
+    image: placeholder,
+    location: 'AB2 AMPHI',
+    timing: '2:00 PM - 3:00 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Classical',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 2,
+    image: placeholder,
+    location: 'AB2 AMPHI',
+    timing: '3:00 PM - 4:30 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Modern',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 2,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '10:30 AM - 11:30 AM',
+    categorie: 'Group',
+    sub_categorie: 'Classical',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 2,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '11:30 AM - 2:00 PM',
+    categorie: 'Group',
+    sub_categorie: 'Modern',
+  },
+  {
+    name: 'V Stepup - Dance',
+    day: 2,
+    image: placeholder,
+    location: 'NEWTON HAll',
+    timing: '11:00 AM - 1:00 PM',
+    categorie: 'Battle',
+    sub_categorie: '-',
+  },
+  {
+    name: 'V Rhythm - Singing',
+    day: 1,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '10:00 AM - 1:00 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Classical'
+  },
+  {
+    name: 'V Rhythm - Singing',
+    day: 1,
+    image: placeholder,
+    location: 'NEWTON HALL',
+    timing: '1:00 PM - 3:00 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Modern'
+  },
+  {
+    name: 'V Rhythm - Singing',
+    day: 1,
+    image: placeholder,
+    location: 'AB2 AMPHI',
+    timing: '1:00 PM - 2:00 PM',
+    categorie: 'Group',
+    sub_categorie: 'Classical'
+  },
+  {
+    name: 'V Rhythm - Singing',
+    day: 1,
+    image: placeholder,
+    location: 'AB2 AMPHI',
+    timing: '10:00 AM - 11:00 AM',
+    categorie: 'Group',
+    sub_categorie: 'Modern'
   },
   {
     name: 'V Rhythm - Singing',
     day: 2,
     image: placeholder,
-    location: '-',
-    timing: '10:00 AM - 12:00 PM',
+    location: 'AB1 GROUND',
+    timing: '2:00 PM - 3:00 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Classical'
+  },
+  {
+    name: 'V Rhythm - Singing',
+    day: 2,
+    image: placeholder,
+    location: 'AUDITORIUM',
+    timing: '10:30 AM - 12:30 PM',
+    categorie: 'Solo',
+    sub_categorie: 'Modern'
+  },
+  {
+    name: 'V Rhythm - Singing',
+    day: 2,
+    image: placeholder,
+    location: 'AB2 AMPHI',
+    timing: '10:00 AM - 11:30 AM',
+    categorie: 'Group',
+    sub_categorie: 'Classical'
+  },
+  {
+    name: 'V Rhythm - Singing',
+    day: 2,
+    image: placeholder,
+    location: 'AB2 AMPHI',
+    timing: '12:00 PM - 1:00 PM',
+    categorie: 'Group',
+    sub_categorie: 'Modern'
   },
   {
     name: 'Battle of Bands- Music',
     day: 1,
     image: placeholder,
-    location: '-',
-    timing: '10:00 AM - 12:00 PM',
+    location: 'AUDITORIUM',
+    timing: '2:00 PM - 3:00 PM',
+    categorie: 'Classical',
+    sub_categorie:'-'
+  },
+  {
+    name: 'Battle of Bands- Music',
+    day: 1,
+    image: placeholder,
+    location: 'AUDITORIUM',
+    timing: '3:00 PM - 4:00 PM',
+    categorie: 'Western',
+    sub_categorie:'-'
+  },
+  {
+    name: 'Battle of Bands- Music',
+    day: 1,
+    image: placeholder,
+    location: 'AUDITORIUM',
+    timing: '4:00 PM - 5:00 PM',
+    categorie: 'Instrumental',
+    sub_categorie:'-'
+  },
+  {
+    name: 'Battle of Bands- Music',
+    day: 2,
+    image: placeholder,
+    location: 'AUDITORIUM',
+    timing: '2:00 PM - 3:00 PM',
+    categorie: 'Classical',
+    sub_categorie:'-'
+  },
+  {
+    name: 'Battle of Bands- Music',
+    day: 2,
+    image: placeholder,
+    location: 'AUDITORIUM',
+    timing: '3:00 PM - 4:00 PM',
+    categorie: 'Western',
+    sub_categorie:'-'
+  },
+  {
+    name: 'Battle of Bands- Music',
+    day: 2,
+    image: placeholder,
+    location: 'AUDITORIUM',
+    timing: '4:00 PM - 5:00 PM',
+    categorie: 'Instrumental',
+    sub_categorie:'-'
+  },
+  {
+    name: 'Beat Boxing and Rap',
+    day: 1,
+    image: placeholder,
+    location: 'NEWTON HALL',
+    timing: '3:00 PM - 4:00 PM',
+    categorie:'Individual',
+    sub_categorie:'-'
+
+  },
+  {
+    name: 'Beat Boxing and Rap',
+    day: 1,
+    image: placeholder,
+    location: 'NEWTON HALL',
+    timing: '4:00 PM - 5:00 PM',
+    categorie:'Group',
+    sub_categorie:'-'
+
   },
   {
     name: 'Beat Boxing and Rap',
     day: 2,
     image: placeholder,
-    location: '-',
-    timing: '10:00 AM - 12:00 PM',
+    location: 'NEWTON HALL',
+    timing: '3:00 PM - 4:00 PM',
+    categorie:'Individual',
+    sub_categorie:'-'
+
+  },
+  {
+    name: 'Beat Boxing and Rap',
+    day: 2,
+    image: placeholder,
+    location: 'NEWTON HALL',
+    timing: '4:00 PM - 5:00 PM',
+    categorie:'Group',
+    sub_categorie:'-'
+
+  },
+
+  {
+    name: 'VGlam-Fashion Show',
+    day: 1,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '3:00 PM - 4:00 PM',
+    categorie:'Traditional',
+    sub_categorie:'-'
   },
   {
     name: 'VGlam-Fashion Show',
     day: 1,
     image: placeholder,
-    location: '-',
-    timing: '10:00 AM - 12:00 PM',
+    location: 'AB1 GROUND',
+    timing: '4:00 PM - 5:00 PM',
+    categorie:'Western',
+    sub_categorie:'-'
+  },
+  {
+    name: 'VGlam-Fashion Show',
+    day: 2,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '3:00 PM - 4:00 PM',
+    categorie:'Traditional',
+    sub_categorie:'-'
+  },
+  {
+    name: 'VGlam-Fashion Show',
+    day: 2,
+    image: placeholder,
+    location: 'AB1 GROUND',
+    timing: '4:00 PM - 5:00 PM',
+    categorie:'Western',
+    sub_categorie:'-'
   },
 ]
 
@@ -260,8 +518,14 @@ function Schedule() {
                           {selectedEvent.name}
                         </Dialog.Title>
                         <div className="mt-2">
+                        <p className="text-sm text-gray-500">
+                            Day: {selectedEvent.day}
+                          </p>
                           <p className="text-sm text-gray-500">
-                            No Description Available for the Event
+                            Category: {selectedEvent.categorie}
+                          </p>
+                          <p className="text-sm text-gray-500">
+                            Sub-Category: {selectedEvent.sub_categorie}
                           </p>
                         </div>
 
