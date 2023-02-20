@@ -31,9 +31,6 @@ export default function Nav() {
         data-easing="ease"
         data-collapse="medium"
         data-w-id="ad0925c3-4db7-e584-bbd6-dfdc92cee912"
-        role="banner"
-        data-duration={400}
-        data-doc-height={1}
       >
         <div className="nav-container w-container">
           <div className="nav-menu-wrapper">
@@ -46,7 +43,7 @@ export default function Nav() {
                 alt=""
               />
             </a>
-            <nav role="navigation" className="nav-menu w-nav-menu">
+            <nav className="nav-menu w-nav-menu">
               <div className="tablet-menu">
                 <a href="#" className="brand-tablet w-nav-brand" />
                 <div className="close-menu-button w-nav-button">
