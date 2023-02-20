@@ -1,4 +1,5 @@
-import React, { useState } from 'react'
+import { Dialog, Transition } from '@headlessui/react'
+import { Fragment, useState } from 'react'
 import Nav from '../Nav'
 import '../styles.css'
 import eventbanner from './../assets/images/events-banner.jpg'
@@ -60,7 +61,8 @@ const proshows = [
 function Schedule() {
   const [searchTerm, setSearchTerm] = useState('')
   const [selectedDay, setSelectedDay] = useState('')
-
+  const [selectedEvent, setSelectedEvent] = useState(null)
+  const [selectedShow, setSelectedShow] = useState(null)
   const handleSearch = (e) => {
     setSearchTerm(e.target.value)
   }
@@ -90,6 +92,25 @@ function Schedule() {
       }
       return show.day === selectedDay
     })
+
+  let [isOpen, setIsOpen] = useState(false)
+  let [isOpenShow, setIsOpenShow] = useState(false)
+  function closeModalEvent() {
+    setIsOpen(false)
+  }
+
+  function openModal(event) {
+    setIsOpen(true)
+    setSelectedEvent(event)
+  }
+
+  function openModalShow(show) {
+    setIsOpenShow(true)
+    setSelectedShow(show)
+  }
+  function closeModalShow() {
+    setIsOpenShow(false)
+  }
   return (
     <>
       <Nav />
@@ -134,42 +155,13 @@ function Schedule() {
               />
             </div>
           </form>
-
-          {/* <div className="flex">
-            <div className="relative">
-              <button
-                className={`p-2 mr-2 ${
-                  selectedDay
-                    ? 'bg-blue-500 text-white'
-                    : 'bg-transparent text-blue-500'
-                } hover:bg-blue-500 hover:text-white`}
-                onClick={() => setSelectedDay(selectedDay ? '' : 1)}
-              >
-                {selectedDay ? `Day ${selectedDay}` : 'Filters'}
-              </button>
-              {selectedDay && (
-                <div className="absolute z-10 bg-white rounded-lg shadow-lg mt-2">
-                  <button
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 w-full text-left"
-                    onClick={() => setSelectedDay(1)}
-                  >
-                    Day 1
-                  </button>
-                  <button
-                    className="block px-4 py-2 text-gray-800 hover:bg-gray-100 w-full text-left"
-                    onClick={() => setSelectedDay(2)}
-                  >
-                    Day 2
-                  </button>
-                </div>
-              )}
-            </div>
-          </div> */}
         </div>
         <h1 className="text-2xl font-bold mb-4">Events</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {filteredEvents.map((event) => (
+          {filteredEvents.map((event, index) => (
             <div
+              key={index}
+              onClick={() => openModal(event)}
               data-aos="fade"
               data-aos-delay="50"
               data-aos-duration="1000"
@@ -200,8 +192,10 @@ function Schedule() {
 
         <h1 className="text-2xl font-bold mb-4">Pro Shows</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
-          {filteredShows.map((show) => (
+          {filteredShows.map((show, index) => (
             <div
+              key={index}
+              onClick={() => openModalShow(show)}
               data-aos="fade"
               data-aos-delay="50"
               data-aos-duration="1000"
@@ -228,6 +222,124 @@ function Schedule() {
               </div>
             </div>
           ))}
+          {selectedEvent && (
+            <Transition appear show={isOpen} as={Fragment}>
+              <Dialog
+                as="div"
+                className="relative z-10"
+                onClose={closeModalEvent}
+              >
+                <Transition.Child
+                  as={Fragment}
+                  enter="ease-out duration-300"
+                  enterFrom="opacity-0"
+                  enterTo="opacity-100"
+                  leave="ease-in duration-200"
+                  leaveFrom="opacity-100"
+                  leaveTo="opacity-0"
+                >
+                  <div className="fixed inset-0 bg-black bg-opacity-25" />
+                </Transition.Child>
+
+                <div className="fixed inset-0 overflow-y-auto">
+                  <div className="flex min-h-full items-center justify-center p-4 text-center">
+                    <Transition.Child
+                      as={Fragment}
+                      enter="ease-out duration-300"
+                      enterFrom="opacity-0 scale-95"
+                      enterTo="opacity-100 scale-100"
+                      leave="ease-in duration-200"
+                      leaveFrom="opacity-100 scale-100"
+                      leaveTo="opacity-0 scale-95"
+                    >
+                      <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                        <Dialog.Title
+                          as="h3"
+                          className="text-lg font-medium leading-6 text-gray-900"
+                        >
+                          {selectedEvent.name}
+                        </Dialog.Title>
+                        <div className="mt-2">
+                          <p className="text-sm text-gray-500">
+                            No Description Available for the Event
+                          </p>
+                        </div>
+
+                        <div className="mt-4">
+                          <button
+                            type="button"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                            onClick={closeModalEvent}
+                          >
+                            Got it, thanks!
+                          </button>
+                        </div>
+                      </Dialog.Panel>
+                    </Transition.Child>
+                  </div>
+                </div>
+              </Dialog>
+            </Transition>
+          )}
+          {selectedShow && (
+            <Transition appear show={isOpenShow} as={Fragment}>
+              <Dialog
+                as="div"
+                className="relative z-10"
+                onClose={closeModalShow}
+              >
+                <Transition.Child
+                  as={Fragment}
+                  enter="ease-out duration-300"
+                  enterFrom="opacity-0"
+                  enterTo="opacity-100"
+                  leave="ease-in duration-200"
+                  leaveFrom="opacity-100"
+                  leaveTo="opacity-0"
+                >
+                  <div className="fixed inset-0 bg-black bg-opacity-25" />
+                </Transition.Child>
+
+                <div className="fixed inset-0 overflow-y-auto">
+                  <div className="flex min-h-full items-center justify-center p-4 text-center">
+                    <Transition.Child
+                      as={Fragment}
+                      enter="ease-out duration-300"
+                      enterFrom="opacity-0 scale-95"
+                      enterTo="opacity-100 scale-100"
+                      leave="ease-in duration-200"
+                      leaveFrom="opacity-100 scale-100"
+                      leaveTo="opacity-0 scale-95"
+                    >
+                      <Dialog.Panel className="w-full max-w-md transform overflow-hidden rounded-2xl bg-white p-6 text-left align-middle shadow-xl transition-all">
+                        <Dialog.Title
+                          as="h3"
+                          className="text-lg font-medium leading-6 text-gray-900"
+                        >
+                          {selectedShow.name}
+                        </Dialog.Title>
+                        <div className="mt-2">
+                          <p className="text-sm text-gray-500">
+                            No Description Available for the Event
+                          </p>
+                        </div>
+
+                        <div className="mt-4">
+                          <button
+                            type="button"
+                            className="inline-flex justify-center rounded-md border border-transparent bg-blue-100 px-4 py-2 text-sm font-medium text-blue-900 hover:bg-blue-200 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 focus-visible:ring-offset-2"
+                            onClick={closeModalShow}
+                          >
+                            Got it, thanks!
+                          </button>
+                        </div>
+                      </Dialog.Panel>
+                    </Transition.Child>
+                  </div>
+                </div>
+              </Dialog>
+            </Transition>
+          )}
         </div>
       </div>
       <Footer />
