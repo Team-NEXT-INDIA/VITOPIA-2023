@@ -1,13 +1,13 @@
-import React from 'react'
-import './../css/previous.css'
-import dsp from './../assets/images/dsp-2.jpeg'
-import sindhu from './../assets/images/pvsindhu.webp'
-import sandhya from './../assets/images/sandhya.jpeg'
-import shanumukh from './../assets/images/shanumukh.jpeg'
-import bobby from './../assets/images/bobby.jpeg'
-import payal from './../assets/images/payal.jpeg'
-import rajasekhar from './../assets/images/rajasekhar.jpeg'
-import twinstring from './../assets/images/twin-string.webp'
+import React from "react";
+import "./../css/previous.css";
+import dsp from "./../assets/images/dsp-2.jpeg";
+import sindhu from "./../assets/images/pvsindhu.webp";
+import sandhya from "./../assets/images/sandhya.jpeg";
+import shanumukh from "./../assets/images/shanumukh.jpeg";
+import bobby from "./../assets/images/bobby.jpeg";
+import payal from "./../assets/images/payal.jpeg";
+import rajasekhar from "./../assets/images/rajasekhar.jpeg";
+import twinstring from "./../assets/images/twin-string.webp";
 export default function PreviousVitopia() {
   return (
     <>
@@ -192,6 +192,9 @@ export default function PreviousVitopia() {
           </div>
         </div>
       </div>
+      <div className="view-all-events">
+        <button>View all Events</button>
+      </div>
     </>
-  )
+  );
 }
