@@ -1856,7 +1856,8 @@ textarea.w-select {
     display: none;
   }
   .w-nav[data-collapse='medium'] .w-nav-button {
-    display: block;
+    display: flex;
+    flex-direction: row-reverse;
   }
 }
 @media screen and (max-width: 767px) {
