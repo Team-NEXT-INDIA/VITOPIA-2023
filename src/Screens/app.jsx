@@ -24,7 +24,7 @@ export default function Apppromo() {
         </div>
         <div className="text-center text-md-left">
           <a
-            href="https://play.google.com/store/apps/details?id=com.next.vitap"
+            href="https://play.google.com/store/apps/details?id=com.arize.vitopia"
             target="_blank"
             rel="noopener noreferrer"
           >
