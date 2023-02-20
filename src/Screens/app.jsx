@@ -11,7 +11,7 @@ export default function Apppromo() {
       <div id="download" className="store-logos">
         <div className="logo-as text-center text-md-left">
           <a
-            href="https://apps.apple.com/in/app/vitap-university-student-app/id6443920958"
+            href="https://apps.apple.com/in/app/vitopia-event-app/id1671245463"
             target="_blank"
             rel="noopener noreferrer"
           >

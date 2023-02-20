@@ -193,12 +193,12 @@ export default function PreviousVitopia() {
         </div>
       </div>
       <div>
-        <div className="view-all-events">
-          <div className="View-all-button">
-          <h6>View All Events</h6>
-          </div>
+        {/* <div className="view-all-events"> */}
+          {/* <div className="View-all-button"> */}
+          {/* <h6>View All Events</h6> */}
+          {/* </div> */}
         
-      </div>
+      {/* </div> */}
       </div>
       
       
