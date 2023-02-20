@@ -13,6 +13,7 @@ import About from './Screens/About'
 import TeamsPage from './Screens/TeamsPage'
 import AOS from 'aos'
 import 'aos/dist/aos.css'
+import Apppromo from './Screens/app'
 
 function App() {
   AOS.init()
@@ -28,6 +29,7 @@ function App() {
           <Route path="schedule" element={<Schedule />} />
           <Route path="team" element={<TeamsPage />} />
           <Route path="about" element={<About />} />
+          <Route path="app" element={<Apppromo />} />
           <Route path="" element={<Error />} />
         </Routes>
       </BrowserRouter>
