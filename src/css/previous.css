@@ -2,9 +2,6 @@
   padding: 0 4px !important;
 }
 
-.view-all-events {
-}
-
 .vitopia-image-card {
   border-radius: 10px;
   margin-top: 8px;
@@ -32,4 +29,20 @@
   .vitopia-guests-padding {
     padding: 100px;
   }
+}
+
+.view-all-events {
+    width: 200px;
+    align-items: center;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+    border-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    transition: all 200ms ease;
+    color: #ffffff;
+    text-align: center;
+    letter-spacing: 0.5px;
+    display: flex;
+    justify-content: center;
 }
