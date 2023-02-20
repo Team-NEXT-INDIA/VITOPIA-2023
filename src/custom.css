@@ -30,7 +30,7 @@
 
 .mention-card:before {
   border-radius: 20px 20px 20px 20px;
-  content: "";
+  content: '';
   position: absolute;
   top: 0;
   left: 0;
@@ -85,7 +85,7 @@
 }
 
 .promo-container {
-  background-image: url("./assets/images/gradient-img.jpg");
+  background-image: url('./assets/images/gradient-img.jpg');
   height: 250px;
   width: 85%;
   display: flex;
@@ -118,7 +118,7 @@
   display: flex;
 }
 .promo-container-text {
-  padding-left: 30px;
+  padding: 30px;
 }
 .promo-links {
   padding-left: 150px;

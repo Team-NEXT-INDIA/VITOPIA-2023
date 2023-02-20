@@ -54,6 +54,9 @@ export default function Aboutvitopia() {
               </button>
             </a>
           </div>
+          <p className="mt-3 text-xs text-gray-700">
+            *External Participants only
+          </p>
         </div>
       </div>
     </div>
