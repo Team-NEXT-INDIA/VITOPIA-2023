@@ -306,7 +306,7 @@ const proshows = [
     name: 'VIT-AP Students Show',
     day: 1,
     image: placeholder,
-    location: 'nill',
+    location: '-',
   },
 
   { name: 'Prize Distribution', day: 2, image: placeholder, location: '-' },
